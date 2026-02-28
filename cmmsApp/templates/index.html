@@ -1,0 +1,1500 @@
+<!DOCTYPE html>
+<html lang="en">
+{% load static %}
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LV, MV and HV Switchgears</title>
+  <!--=============== CSS ===============-->
+  <link rel="stylesheet" href="{% static 'css/home.css' %}">
+  <link rel="stylesheet" href="{% static 'css/neplan-about.css' %}">
+  <link rel="stylesheet" href="{% static 'css/consult-block.css' %}">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="icon" href="{% static 'images/logo1.avif' %}">
+  <link rel="stylesheet" href="{% static 'css/footer.css' %}">
+  <script defer src="{% static 'js/main.js' %}"></script>
+</head>
+
+<body>
+  {% include 'header.html' %}
+  {% include 'request_demo_modal.html' %}
+  {% load static %}
+
+  <!-- ====================== HERO / HEADLINE ====================== -->
+  <section id="home" class="section-hero-lv-mv-hv-swt">
+    <div class="container-lv-mv-hv-swt grid-hero-lv-mv-hv-swt">
+      <div class="hero-left-lv-mv-hv-swt">
+        <h1 class="hero-title-lv-mv-hv-swt">
+          LV, MV, and HV <span class="accent-lv-mv-hv-swt">Switchgear </span><br>
+          <span class="accent-lv-mv-hv-swt">Solutions </span> for Reliable Power Distribution
+        </h1>
+        <p class="hero-sub-lv-mv-hv-swt">
+          We deal in wide range of <strong> Premium Electrical Switchgears</strong> and allied products of different
+          brands.
+
+        </p>
+
+        <div class="hero-cta-lv-mv-hv-swt">
+          <a href="#solutions" class="btn-primary-lv-mv-hv-swt">Our Solutions</a>
+          <a href="#types" class="btn-ghost-lv-mv-hv-swt js-open-demo">Get a Quote</a>
+        </div>
+      </div>
+
+      <div class="hero-right-lv-mv-hv-swt">
+        <!-- Replace the src with your image path -->
+        <img src="{% static 'images/main.avif' %}" alt="LV, MV, and HV Switchgear"
+          class="hero-img-lv-mv-hv-swt">
+      </div>
+    </div>
+
+    <!-- Decorative base band like the reference -->
+    <div class="hero-band-lv-mv-hv-swt"></div>
+  </section>
+  <!-- ====================== WHY US ====================== -->
+  <section id="why" class="section-why-lv-mv-hv-swt-why">
+    <div class="container-lv-mv-hv-swt">
+      <p class="eyebrow-lv-mv-hv-swt-why reveal-lv-mv-hv-swt reveal-top-lv-mv-hv-swt-why">
+        Switchgear Excellence
+      </p>
+      <h2 class="title-lv-mv-hv-swt-why reveal-lv-mv-hv-swt reveal-bottom-lv-mv-hv-swt-why">
+        Your Premium Electrical Protection & Control Partner
+      </h2>
+      <p class="hero-sub-lv-mv-hv-swt" style="max-width: 1200px; margin: 0 auto 30px; text-align: center;">
+        Switchgear is the apparatus that is used to <strong>switch, control, and protect</strong> electrical circuits
+        and equipment. We deal in a wide range of <strong>Premium Electrical Switchgears</strong> and allied products of
+        different brands.
+      </p>
+
+      <div class="grid-lv-mv-hv-swt-why">
+        <!-- 1. Circuit Protection (MCCBs & ACBs) -->
+        <article class="card-lv-mv-hv-swt-why reveal-lv-mv-hv-swt reveal-left-lv-mv-hv-swt-why">
+          <!-- Icon is implicitly handled by CSS or remains empty -->
+          <h3 class="card-title-lv-mv-hv-swt-why">Robust Circuit Protection</h3>
+          <p class="card-text-lv-mv-hv-swt-why">
+            Our product basket includes <strong>Moulded Case Circuit Breakers (MCCBs)</strong> and <strong>Air Circuit
+              Breakers (ACBs)</strong>, offering superior fault control and critical equipment protection across all
+            voltage levels.
+          </p>
+        </article>
+
+        <!-- 2. Isolation and Fusing -->
+        <article class="card-lv-mv-hv-swt-why reveal-lv-mv-hv-swt reveal-top-lv-mv-hv-swt-why">
+          <h3 class="card-title-lv-mv-hv-swt-why">Reliable Isolation & Fusing</h3>
+          <p class="card-text-lv-mv-hv-swt-why">
+            We supply <strong>HRC Fuse & Fuse Bases</strong>, <strong>Switch Disconnector Fuses</strong>, and
+            <strong>Switch Disconnectors</strong> to ensure safe and complete isolation of circuits for maintenance and
+            operation.
+          </p>
+        </article>
+
+        <!-- 3. Power Continuity & Transfer -->
+        <article class="card-lv-mv-hv-swt-why reveal-lv-mv-hv-swt reveal-right-lv-mv-hv-swt-why">
+          <h3 class="card-title-lv-mv-hv-swt-why">Seamless Power Transfer</h3>
+          <p class="card-text-lv-mv-hv-swt-why">
+            Ensure operational continuity with our <strong>Manual & Motorized Changeover Switches</strong> and
+            <strong>Auto Transfer Switches (ATS)</strong>, enabling swift and safe source transitions.
+          </p>
+        </article>
+
+        <!-- 4. Specialized DC & PV Applications -->
+        <article class="card-lv-mv-hv-swt-why reveal-lv-mv-hv-swt reveal-left-lv-mv-hv-swt-why">
+          <h3 class="card-title-lv-mv-hv-swt-why">DC & Photovoltaic (PV) Solutions</h3>
+          <p class="card-text-lv-mv-hv-swt-why">
+            Stay ahead with specialized products like <strong>Switch Disconnectors for DC Application</strong> and
+            <strong>Photovoltaic MCCBs</strong>, essential for modern solar and battery installations.
+          </p>
+        </article>
+
+        <!-- 5. Manual & Control Switching -->
+        <article class="card-lv-mv-hv-swt-why reveal-lv-mv-hv-swt reveal-bottom-lv-mv-hv-swt-why">
+          <h3 class="card-title-lv-mv-hv-swt-why">Precision Control Switches</h3>
+          <p class="card-text-lv-mv-hv-swt-why">
+            Achieve precise control and sequencing in machinery and panels with our high-quality <strong>Cam
+              Switches</strong>, designed for durability and repetitive operations.
+          </p>
+        </article>
+
+        <!-- 6. Distribution Infrastructure -->
+        <article class="card-lv-mv-hv-swt-why reveal-lv-mv-hv-swt reveal-right-lv-mv-hv-swt-why">
+          <h3 class="card-title-lv-mv-hv-swt-why">Integrated Distribution Cabinets</h3>
+          <p class="card-text-lv-mv-hv-swt-why">
+            We provide essential infrastructure components like the <strong>Cable Distribution Cabinet</strong> and
+            <strong>Fuse Switch Disconnectors</strong> for organized and compliant power distribution networks.
+          </p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====================== TYPES OF SWITCHGEAR VOLTAGE LEVELS ====================== -->
+  <section id="types" class="section-types-lv-mv-hv-swt-types">
+    <div class="container-lv-mv-hv-swt">
+      <p class="kicker-lv-mv-hv-swt-types reveal-lv-mv-hv-swt reveal-top-lv-mv-hv-swt-types">Voltage Levels</p>
+      <h2 class="title-lv-mv-hv-swt-types reveal-lv-mv-hv-swt reveal-bottom-lv-mv-hv-swt-types">
+        The Three Categories of Electrical Switchgear
+      </h2>
+
+      <!-- Tabs -->
+      <div class="tabs-lv-mv-hv-swt-types" role="tablist" aria-label="Switchgear Voltage Levels">
+        <button class="tab-btn-lv-mv-hv-swt-types is-active-lv-mv-hv-swt-types" role="tab" aria-selected="true"
+          aria-controls="panel-lv-switchgear" id="tab-lv-switchgear" data-type="lv">
+          Low Voltage (LV)
+        </button>
+        <button class="tab-btn-lv-mv-hv-swt-types" role="tab" aria-selected="false" aria-controls="panel-mv-switchgear"
+          id="tab-mv-switchgear" data-type="mv">
+          Medium Voltage (MV)
+        </button>
+        <button class="tab-btn-lv-mv-hv-swt-types" role="tab" aria-selected="false" aria-controls="panel-hv-switchgear"
+          id="tab-hv-switchgear" data-type="hv">
+          High Voltage (HV)
+        </button>
+      </div>
+
+      <!-- Panels -->
+
+      <!-- 1. Low Voltage (LV) Switchgear (Up to 1 kV) -->
+      <div class="panel-lv-mv-hv-swt-types is-active-lv-mv-hv-swt-types" role="tabpanel" id="panel-lv-switchgear"
+        aria-labelledby="tab-lv-switchgear">
+        <div class="panel-grid-lv-mv-hv-swt-types" id="lv-switchgear">
+          <div class="panel-text-lv-mv-hv-swt-types reveal-lv-mv-hv-swt reveal-left-lv-mv-hv-swt-types">
+            <h3>Low Voltage (LV) Switchgear</h3>
+            <p>
+              LV Switchgear handles voltages up to <strong>1 kV</strong>. This category is crucial for the final power
+              distribution, control, and protection within residential, commercial, and industrial facilities.
+            </p>
+            <ul class="bullets-lv-mv-hv-swt-types">
+              <li><i class="ri-check-line"></i> Primary Use: Final distribution and control at the point of consumption.
+              </li>
+              <li><i class="ri-check-line"></i> Components: Includes MCCBs, MCBs, contactors, and relays.</li>
+              <li><i class="ri-check-line"></i> Safety Criticality: Essential for personnel safety and equipment
+                protection at the application level.</li>
+            </ul>
+          </div>
+          <figure class="panel-media-lv-mv-hv-swt-types reveal-lv-mv-hv-swt reveal-right-lv-mv-hv-swt-types">
+            <div class="sg-slider-lv-mv-hv-swt-types" data-interval="2000"
+              aria-label="Low voltage switchgear image slider">
+              <img class="is-active" src="{% static 'images/l1.avif' %}" alt="Low voltage switchgear image 1">
+              <img src="{% static 'images/l2.avif' %}" alt="Low voltage switchgear image 2">
+              <img src="{% static 'images/l3.avif' %}" alt="Low voltage switchgear image 3">
+            </div>
+            
+          </figure>
+        </div>
+      </div>
+
+      <!-- 2. Medium Voltage (MV) Switchgear (3.3 kV to 33 kV) -->
+      <div class="panel-lv-mv-hv-swt-types" role="tabpanel" id="panel-mv-switchgear" aria-labelledby="tab-mv-switchgear"
+        hidden>
+        <div class="panel-grid-lv-mv-hv-swt-types" id="mv-switchgear">
+          <div class="panel-text-lv-mv-hv-swt-types reveal-lv-mv-hv-swt reveal-left-lv-mv-hv-swt-types">
+            <h3>Medium Voltage (MV) Switchgear</h3>
+            <p>
+              Medium-voltage switchgear is available in classes ranging from 3.3 kV to 33 kV. Its main purpose is to
+              distribute electrical energy to various electrical networks within a large facility or substation.
+            </p>
+            <ul class="bullets-lv-mv-hv-swt-types">
+              <li><i class="ri-check-line"></i> Key Functionality: Switching on and off, short circuit current
+                interruption, and switching capacitive/inductive currents.</li>
+              <li><i class="ri-check-line"></i> Equipment Types: Includes minimum oil, bulk oil, air magnetic, SF6
+                gas-insulated, and vacuum circuit breakers.</li>
+              <li><i class="ri-check-line"></i> Requirement: All functions must be performed with a high level of safety
+                and dependability.</li>
+            </ul>
+          </div>
+          <figure class="panel-media-lv-mv-hv-swt-types reveal-lv-mv-hv-swt reveal-right-lv-mv-hv-swt-types">
+            <div class="sg-slider-lv-mv-hv-swt-types" data-interval="2000"
+              aria-label="Medium voltage switchgear image slider">
+              <img class="is-active" src="{% static 'images/m1.avif' %}"
+                alt="Medium voltage switchgear image 1">
+              <img src="{% static 'images/m2.avif' %}" alt="Medium voltage switchgear image 2">
+              <img src="{% static 'images/m3.avif' %}" alt="Medium voltage switchgear image 3">
+            </div>
+          </figure>
+        </div>
+      </div>
+
+      <!-- 3. High Voltage (HV) Switchgear (Above 36 kV) -->
+      <div class="panel-lv-mv-hv-swt-types" role="tabpanel" id="panel-hv-switchgear" aria-labelledby="tab-hv-switchgear"
+        hidden>
+        <div class="panel-grid-lv-mv-hv-swt-types" id="hv-switchgear">
+          <div class="panel-text-lv-mv-hv-swt-types reveal-lv-mv-hv-swt reveal-left-lv-mv-hv-swt-types">
+            <h3>High Voltage (HV) Switchgear</h3>
+            <p>
+              High voltage refers to the power system that deals with voltages more than 36 kV. Due to the high voltage
+              level, the arcing created during the switching operation is significantly high, requiring specialized
+              construction.
+            </p>
+            <ul class="bullets-lv-mv-hv-swt-types">
+              <li><i class="ri-check-line"></i> Major Component: High voltage circuit breakers (e.g., SF6 circuit
+                breakers or vacuum circuit breakers ).</li>
+              <li><i class="ri-check-line"></i> Design Focus: Requires unique characteristics for safe and reliable
+                functioning to handle extreme arcing and voltage.</li>
+              <li><i class="ri-check-line"></i> Operation: Most of the time, these circuit breakers remain in the ON
+                position , necessitating extreme long-term reliability for when operation is finally needed.</li>
+            </ul>
+          </div>
+          <figure class="panel-media-lv-mv-hv-swt-types reveal-lv-mv-hv-swt reveal-right-lv-mv-hv-swt-types">
+            <div class="sg-slider-lv-mv-hv-swt-types" data-interval="2000"
+              aria-label="High voltage switchgear image slider">
+              <img class="is-active" src="{% static 'images/h1.avif' %}"
+                alt="High voltage switchgear image 1">
+              <img src="{% static 'images/h2.avif' %}" alt="High voltage switchgear image 2">
+              <img src="{% static 'images/h3.avif' %}" alt="High voltage switchgear image 3">
+            </div>
+          </figure>
+        </div>
+      </div>
+
+      <!-- Quick features row (Modified for Switchgear key factors) -->
+      <!-- <div class="feature-grid-lv-mv-hv-swt-types reveal-lv-mv-hv-swt reveal-bottom-lv-mv-hv-swt-types"
+      aria-hidden="true">
+      <div class="feature-chip-lv-mv-hv-swt-types"><i class="ri-line-chart-line"></i> Fault Interruption</div>
+      <div class="feature-chip-lv-mv-hv-swt-types"><i class="ri-alarm-line"></i> Protection & Safety</div>
+      <div class="feature-chip-lv-mv-hv-swt-types"><i class="ri-cpu-line"></i> Control & Monitoring</div>
+      <div class="feature-chip-lv-mv-hv-swt-types"><i class="ri-road-map-line"></i> System Distribution</div>
+    </div> -->
+    </div>
+  </section>
+
+  <!--  
+  <section id="mounting-types" class="section-types-lv-mv-hv-swt-types">
+    <div class="container-lv-mv-hv-swt">
+      <p class="kicker-lv-mv-hv-swt-types reveal-lv-mv-hv-swt reveal-top-lv-mv-hv-swt-types">
+        Types of Solar Mounting Structures
+      </p>
+      <h2 class="title-lv-mv-hv-swt-types reveal-lv-mv-hv-swt reveal-bottom-lv-mv-hv-swt-types">
+        Select the Ideal Mounting Solution
+      </h2>
+
+   
+      <div class="tabs-lv-mv-hv-swt-types" role="tablist" aria-label="Solar mounting types">
+        <button class="tab-btn-lv-mv-hv-swt-types is-active-lv-mv-hv-swt-types" role="tab" aria-selected="true"
+          aria-controls="panel-on-grid-mount-types" id="tab-on-grid-mount-types" data-type="on-grid">
+          <i class="ri-landscape-line" aria-hidden="true"></i>
+          Ground-Mounted
+        </button>
+
+        <button class="tab-btn-lv-mv-hv-swt-types" role="tab" aria-selected="false"
+          aria-controls="panel-off-grid-mount-types" id="tab-off-grid-mount-types" data-type="off-grid">
+          <i class="ri-home-3-line" aria-hidden="true"></i>
+          Rooftop
+        </button>
+      </div>
+
+
+      <div class="panel-lv-mv-hv-swt-types is-active-lv-mv-hv-swt-types" role="tabpanel" id="panel-on-grid-mount-types"
+        aria-labelledby="tab-on-grid-mount-types">
+        <div class="panel-grid-lv-mv-hv-swt-types">
+          <div class="panel-text-lv-mv-hv-swt-types reveal-lv-mv-hv-swt reveal-left-lv-mv-hv-swt-types">
+            <h3>Ground-Mounted Solar Systems</h3>
+            <p>
+              Designed for large-scale installations ranging from  10&nbsp;MW to 200&nbsp;MW</strong>, these
+              systems are installed on open land to maximize solar energy generation. They are ideal for utility-scale
+              projects and grid integration.
+            </p>
+            <ul class="bullets-lv-mv-hv-swt-types">
+              <li><i class="ri-check-line"></i> Optimized land use for maximum yield on utility-scale sites.</li>
+              <li><i class="ri-check-line"></i> Scalable from 10&nbsp;MW up to 200&nbsp;MW and beyond.</li>
+              <li><i class="ri-check-line"></i> Well-suited for grid connection and centralized O&amp;M.</li>
+            </ul>
+          </div>
+
+          <figure class="panel-media-lv-mv-hv-swt-types reveal-lv-mv-hv-swt reveal-right-lv-mv-hv-swt-types">
+         
+            <img src="{% static 'images/solarm1.avif' %}" alt="Utility-scale ground-mounted solar array on open land">
+          </figure>
+        </div>
+      </div>
+
+      <div class="panel-lv-mv-hv-swt-types" role="tabpanel" id="panel-off-grid-mount-types"
+        aria-labelledby="tab-off-grid-mount-types" hidden>
+        <div class="panel-grid-lv-mv-hv-swt-types">
+          <div class="panel-text-lv-mv-hv-swt-types reveal-lv-mv-hv-swt reveal-left-lv-mv-hv-swt-types">
+            <h3>Rooftop Solar Systems</h3>
+            <p>
+              Suitable for  residential, commercial, and industrial buildings</strong>, rooftop systems utilize
+              available roof space to generate clean energy efficiently. They help reduce electricity costs and support
+              sustainability goals.
+            </p>
+            <ul class="bullets-lv-mv-hv-swt-types">
+              <li><i class="ri-check-line"></i> Leverages existing roof space, no additional land required.</li>
+              <li><i class="ri-check-line"></i> Cuts electricity bills for homes, businesses, and factories.</li>
+              <li><i class="ri-check-line"></i> Accelerates corporate and household sustainability targets.</li>
+            </ul>
+          </div>
+
+          <figure class="panel-media-lv-mv-hv-swt-types reveal-lv-mv-hv-swt reveal-right-lv-mv-hv-swt-types">
+
+            <img src="{% static 'images/solarm2.avif' %}" alt="Rooftop solar panels on commercial building">
+          </figure>
+        </div>
+      </div>
+      <div class="feature-grid-lv-mv-hv-swt-types reveal-lv-mv-hv-swt reveal-bottom-lv-mv-hv-swt-types"
+        aria-hidden="true">
+        <div class="feature-chip-lv-mv-hv-swt-types"><i class="ri-road-map-line"></i> Utility-Scale</div>
+        <div class="feature-chip-lv-mv-hv-swt-types"><i class="ri-community-line"></i> Buildings</div>
+        <div class="feature-chip-lv-mv-hv-swt-types"><i class="ri-bar-chart-2-line"></i> High Yield</div>
+        <div class="feature-chip-lv-mv-hv-swt-types"><i class="ri-seedling-line"></i> Sustainability</div>
+      </div>
+    </div>
+  </section> -->
+
+  <!-- ====================== SOLUTIONS ====================== -->
+  <section id="solutions" class="section-solutions-lv-mv-hv-swt-solution">
+    <div class="container-lv-mv-hv-swt">
+      <div class="solutions-head-lv-mv-hv-swt-solution">
+        <div>
+          <p class="solutions-kicker-lv-mv-hv-swt-solution reveal-lv-mv-hv-swt reveal-top-lv-mv-hv-swt-solution">
+            Our Expertise
+          </p>
+          <h2 class="solutions-title-lv-mv-hv-swt-solution reveal-lv-mv-hv-swt reveal-bottom-lv-mv-hv-swt-solution">
+            Switchgear Solutions by Application
+          </h2>
+        </div>
+
+        <button id="solutions-toggle-btn-lv-mv-hv-swt-solution" class="solutions-viewall-btn-lv-mv-hv-swt-solution"
+          type="button" aria-expanded="false">
+          View All Solutions
+        </button>
+      </div>
+
+      <div id="solutions-grid-lv-mv-hv-swt-solution"
+        class="grid-solutions-lv-mv-hv-swt-solution is-collapsed-lv-mv-hv-swt-solution">
+
+        <!-- 1: Final Circuit Protection & Control (Implied LV) -->
+        <article class="card-lv-mv-hv-swt-solution reveal-lv-mv-hv-swt reveal-left-lv-mv-hv-swt-solution">
+          
+          <h3 class="card-title-lv-mv-hv-swt-solution">Final Circuit Protection & Control</h3>
+          <p class="card-text-lv-mv-hv-swt-solution">
+            Essential switchgear and protection devices (MCCBs, MCBs) for reliable power distribution within homes,
+            offices, and small commercial facilities.
+          </p>
+        </article>
+
+        <!-- 2: Integrated Building Power Systems (Implied LV/MV) -->
+        <article class="card-lv-mv-hv-swt-solution reveal-lv-mv-hv-swt reveal-top-lv-mv-hv-swt-solution">
+          
+          <h3 class="card-title-lv-mv-hv-swt-solution">Integrated Building Power Systems</h3>
+          <p class="card-text-lv-mv-hv-swt-solution">
+            Comprehensive electrical solutions for hospitals, data centers, and large commercial buildings, integrating
+            fault protection and seamless power transfer.
+          </p>
+        </article>
+
+        <!-- 3: Heavy Industry & Plant Automation (Implied MV/LV) -->
+        <article class="card-lv-mv-hv-swt-solution reveal-lv-mv-hv-swt reveal-right-lv-mv-hv-swt-solution">
+          <!-- <div class="card-icon-lv-mv-hv-swt-solution"><i class="ri-factory-line" aria-hidden="true"></i></div> -->
+          <h3 class="card-title-lv-mv-hv-swt-solution">Heavy Industry & Plant Automation</h3>
+          <p class="card-text-lv-mv-hv-swt-solution">
+            Robust Medium Voltage switchgear and protection for critical loads like high-power motors, large
+            transformers, and continuous industrial process control.
+          </p>
+        </article>
+
+        <!-- 4: Substation & Grid Interconnection (Implied HV/MV) -->
+        <article
+          class="card-lv-mv-hv-swt-solution extra-card-lv-mv-hv-swt-solution reveal-lv-mv-hv-swt reveal-left-lv-mv-hv-swt-solution">
+          <!-- <div class="card-icon-lv-mv-hv-swt-solution"><i class="ri-road-map-line" aria-hidden="true"></i></div> -->
+          <h3 class="card-title-lv-mv-hv-swt-solution">Substation & Grid Interconnection</h3>
+          <p class="card-text-lv-mv-hv-swt-solution">
+            High-voltage circuit breakers and reliable switching apparatus designed for large utility transmission
+            networks and demanding grid tie-in applications.
+          </p>
+        </article>
+
+        <!-- 5: DC Power & Energy Storage (Specialized DC) -->
+        <article
+          class="card-lv-mv-hv-swt-solution extra-card-lv-mv-hv-swt-solution reveal-lv-mv-hv-swt reveal-bottom-lv-mv-hv-swt-solution">
+          <!-- <div class="card-icon-lv-mv-hv-swt-solution"><i class="ri-battery-2-charge-line" aria-hidden="true"></i></div> -->
+          <h3 class="card-title-lv-mv-hv-swt-solution">DC Power & Energy Storage</h3>
+          <p class="card-text-lv-mv-hv-swt-solution">
+            Specialized DC-rated switch disconnectors and protection for safe and efficient operation of Battery Energy
+            Storage Systems (BESS) and solar farms.
+          </p>
+        </article>
+
+        <!-- 6: E-Mobility & Charging Infrastructure (Specialized LV/DC) -->
+        <article
+          class="card-lv-mv-hv-swt-solution extra-card-lv-mv-hv-swt-solution reveal-lv-mv-hv-swt reveal-right-lv-mv-hv-swt-solution">
+          <!-- <div class="card-icon-lv-mv-hv-swt-solution"><i class="ri-charging-pile-2-line" aria-hidden="true"></i></div> -->
+          <h3 class="card-title-lv-mv-hv-swt-solution">E-Mobility & Charging Infrastructure</h3>
+          <p class="card-text-lv-mv-hv-swt-solution">
+            Dedicated, robust protection, and control switchgear necessary for electric vehicle (EV) charging stations
+            and large-scale fleet charging depots.
+          </p>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+
+  <section id="app" class="section-app-lv-mv-hv-swt-app">
+    <div class="container-lv-mv-hv-swt">
+
+
+      <!-- Row 2: Image left, Text right -->
+      <div class="grid-app-lv-mv-hv-swt-app grid-reverse-lv-mv-hv-swt-app">
+
+        <figure class="col-media-lv-mv-hv-swt-app reveal-lv-mv-hv-swt reveal-left-lv-mv-hv-swt-app">
+          <div class="media-chart-lv-mv-hv-swt-app" data-tilt>
+            <img src="{% static 'images/comp.avif' %}" alt="LV-MV-hv components visual"
+              class="chart-img-lv-mv-hv-swt-app">
+          </div>
+        </figure>
+
+        <div class="col-text-lv-mv-hv-swt-app reveal-lv-mv-hv-swt reveal-right-lv-mv-hv-swt-app">
+          <p class="kicker-lv-mv-hv-swt-app">Switchgear</p>
+          <h2 class="title-lv-mv-hv-swt-app">Components of Switchgear</h2>
+
+          <ul class="list-lv-mv-hv-swt-app reveal-lv-mv-hv-swt reveal-top-lv-mv-hv-swt-app">
+            <li><i class="ri-check-line" aria-hidden="true"></i> Switching Devices (Circuit Breakers, Isolators, Load
+              Break Switches)</li>
+            <li><i class="ri-check-line" aria-hidden="true"></i> Protection Devices (Protection Relays, Fuses, RCDs,
+              Surge Protection)</li>
+            <li><i class="ri-check-line" aria-hidden="true"></i> Control &amp; Automation Components (Auxiliary Relays,
+              Trip/Close Coils, PLC/RTU)</li>
+            <li><i class="ri-check-line" aria-hidden="true"></i> Busbar System (Main Busbars, Bus Couplers, Supports
+              &amp; Insulation)</li>
+            <li><i class="ri-check-line" aria-hidden="true"></i> Metering, Earthing &amp; Communication Systems (CTs,
+              VTs, Grounding, SCADA)</li>
+          </ul>
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <section class="section-csc-lv-mv-hv-swt-csc-products" id="cec-products">
+    <div class="container-csc-lv-mv-hv-swt-csc-products">
+      <header class="head-csc-lv-mv-hv-swt-csc-products">
+        <span class="eyebrow-csc-lv-mv-hv-swt-csc-products reveal-top-lv-mv-hv-swt-csc-products">
+          LV, MV, and HV Switchgear
+        </span>
+        <h2 class="title-csc-lv-mv-hv-swt-csc-products reveal-top-lv-mv-hv-swt-csc-products">
+          Reliable, Standards-Compliant Switchgear Solutions for Critical Power Systems
+        </h2>
+        <p class="lead-csc-lv-mv-hv-swt-csc-products reveal-top-lv-mv-hv-swt-csc-products">
+          At iEngineering, we design, supply, and integrate Low Voltage (LV), Medium Voltage (MV), and High Voltage (HV)
+          switchgear engineered to deliver safe, reliable, and efficient power distribution across commercial,
+          industrial, utility, and infrastructure projects. </p>
+        <p class="lead-csc-lv-mv-hv-swt-csc-products reveal-top-lv-mv-hv-swt-csc-products">
+          Our switchgear solutions are developed in accordance with IEC, AS/NZS, and IEEE standards, ensuring robust
+          protection, operational reliability, and long-term system performance from day one.
+        </p>
+        <p class="lead-csc-lv-mv-hv-swt-csc-products reveal-top-lv-mv-hv-swt-csc-products">
+          By using certified components, proven protection schemes, and well-coordinated control systems, we help
+          minimize downtime, enhance personnel safety, and ensure compliance with utility and regulatory requirements.
+          Our solutions support applications ranging from buildings and factories to substations, renewable energy
+          plants, and grid interconnections.
+        </p>
+        <p class="lead-csc-lv-mv-hv-swt-csc-products reveal-top-lv-mv-hv-swt-csc-products">Choose iEngineering for
+          switchgear systems that are technically sound, fully compliant, and engineered for dependable power delivery
+          built to protect your assets today and support future expansion.</p>
+      </header>
+      <!-- Document cards -->
+      <div class="docs-grid-csc-lv-mv-hv-swt-csc-products">
+
+        <!-- DOC 1   LV -->
+        <article class="doc-card-csc-lv-mv-hv-swt-csc-products reveal-left-lv-mv-hv-swt-csc-products">
+          <div class="doc-meta-csc-lv-mv-hv-swt-csc-products">
+            <div class="doc-icon-csc-lv-mv-hv-swt-csc-products" aria-hidden="true">⚡</div>
+            <div>
+              <h3 class="doc-title-csc-lv-mv-hv-swt-csc-products">Low Voltage (LV) Switchgear</h3>
+              <p class="doc-note-csc-lv-mv-hv-swt-csc-products">Panels &amp; protection • Safe distribution</p>
+            </div>
+          </div>
+          <div class="doc-actions-csc-lv-mv-hv-swt-csc-products">
+            <button class="btn-primary-csc-lv-mv-hv-swt-csc-products request-download-csc-lv-mv-hv-swt-csc-products" 
+              data-doc="lv-mv-hv">Request Download</button>
+          </div>
+        </article>
+
+        <!-- DOC 2   MV -->
+        <article class="doc-card-csc-lv-mv-hv-swt-csc-products reveal-up-lv-mv-hv-swt-csc-products">
+          <div class="doc-meta-csc-lv-mv-hv-swt-csc-products">
+            <div class="doc-icon-csc-lv-mv-hv-swt-csc-products" aria-hidden="true">🔌</div>
+            <div>
+              <h3 class="doc-title-csc-lv-mv-hv-swt-csc-products">Medium Voltage (MV) Switchgear</h3>
+              <p class="doc-note-csc-lv-mv-hv-swt-csc-products">VCB, RMU &amp; relays • Critical control</p>
+            </div>
+          </div>
+          <div class="doc-actions-csc-lv-mv-hv-swt-csc-products">
+            <button class="btn-primary-csc-lv-mv-hv-swt-csc-products request-download-csc-lv-mv-hv-swt-csc-products"
+              data-doc="lv-mv-hv">Request Download</button>
+          </div>
+        </article>
+
+        <!-- DOC 3   HV -->
+        <article class="doc-card-csc-lv-mv-hv-swt-csc-products reveal-right-lv-mv-hv-swt-csc-products">
+          <div class="doc-meta-csc-lv-mv-hv-swt-csc-products">
+            <div class="doc-icon-csc-lv-mv-hv-swt-csc-products" aria-hidden="true">🛡️</div>
+            <div>
+              <h3 class="doc-title-csc-lv-mv-hv-swt-csc-products">High Voltage (HV) Switchgear</h3>
+              <p class="doc-note-csc-lv-mv-hv-swt-csc-products">Substations &amp; grid • Utility-grade protection</p>
+            </div>
+          </div>
+          <div class="doc-actions-csc-lv-mv-hv-swt-csc-products">
+            <button class="btn-primary-csc-lv-mv-hv-swt-csc-products request-download-csc-lv-mv-hv-swt-csc-products"
+              data-doc="lv-mv-hv">Request Download</button>
+          </div>
+        </article>
+
+      </div>
+
+
+      <!-- Modal: request download -->
+      <div class="modal-csc-lv-mv-hv-swt-csc-products" id="csc-modal" aria-hidden="true">
+        <div class="modal-backdrop-csc-lv-mv-hv-swt-csc-products"></div>
+        <div class="modal-dialog-csc-lv-mv-hv-swt-csc-products" role="dialog" aria-modal="true"
+          aria-labelledby="csc-modal-title">
+          <button class="modal-close-csc-lv-mv-hv-swt-csc-products" aria-label="Close">×</button>
+
+          <h3 id="csc-modal-title" class="modal-title-csc-lv-mv-hv-swt-csc-products">
+            Request Download
+          </h3>
+          <p class="modal-sub-csc-lv-mv-hv-swt-csc-products">
+            Enter your details and we’ll email the file to you.
+          </p>
+
+          <form class="form-csc-lv-mv-hv-swt-csc-products" id="csc-form" method="post" novalidate>
+            {% csrf_token %}
+            <input type="hidden" id="csc-doc-name" name="docName" />
+            <div class="field-csc-lv-mv-hv-swt-csc-products">
+              <label for="csc-name">Full name</label>
+              <input id="csc-name" name="name" type="text" placeholder="Your name" required />
+            </div>
+            <div class="field-csc-lv-mv-hv-swt-csc-products">
+              <label for="csc-email">Email</label>
+              <input id="csc-email" name="email" type="email" placeholder="you@example.com" required />
+            </div>
+            <button type="submit"
+              class="btn-primary-csc-lv-mv-hv-swt-csc-products btn-wide-csc-lv-mv-hv-swt-csc-products">
+              Send me the file
+            </button>
+          </form>
+
+
+        </div>
+      </div>
+  </section>
+
+  <!-- ====================== SOLAR APP (EMS + Components) ====================== -->
+  <section id="app" class="section-app-lv-mv-hv-swt-app">
+    <div class="container-lv-mv-hv-swt">
+
+      <!-- Row 1: Text left, Image right -->
+      <div class="grid-app-lv-mv-hv-swt-app">
+        <div class="col-text-lv-mv-hv-swt-app reveal-lv-mv-hv-swt reveal-left-lv-mv-hv-swt-app">
+          <p class="kicker-lv-mv-hv-swt-app">Switchgear Monitoring</p>
+          <h2 class="title-lv-mv-hv-swt-app">Advanced Switchgear Monitoring & Control System</h2>
+
+          <p class="reveal-lv-mv-hv-swt reveal-bottom-lv-mv-hv-swt-app">
+            Our advanced switchgear monitoring and control system enables real-time visibility, protection, and
+            operational control of LV, MV, and HV electrical networks, including: </p>
+
+          <ul class="list-lv-mv-hv-swt-app reveal-lv-mv-hv-swt reveal-bottom-lv-mv-hv-swt-app">
+            <li><i class="ri-check-line" aria-hidden="true"></i>Switchgear status & fault monitoring</li>
+            <li><i class="ri-check-line" aria-hidden="true"></i> Electrical parameters & load data</li>
+            <li><i class="ri-check-line" aria-hidden="true"></i> Protection events & alarms</li>
+            <li><i class="ri-check-line" aria-hidden="true"></i> Temperature & equipment health
+            </li>
+            <li><i class="ri-check-line" aria-hidden="true"></i> Remote monitoring & SCADA integration</li>
+          </ul>
+        </div>
+
+        <figure class="col-media-lv-mv-hv-swt-app reveal-lv-mv-hv-swt reveal-left-lv-mv-hv-swt-app">
+          <div class="media-chart-lv-mv-hv-swt-app" data-tilt>
+            <img src="{% static 'images/adv.avif' %}" alt="components visual" class="chart-img-lv-mv-hv-swt-app">
+          </div>
+        </figure>
+      </div>
+
+
+    </div>
+  </section>
+
+
+
+
+  <section class="lv-mv-hv-switch-1-project" id="projects">
+    <div class="lv-mv-hv-switch-container">
+      <header class="lv-mv-hv-switch-header">
+        <p class="lv-mv-hv-switch-kicker">Past Project Experience</p>
+        <h2></h2>
+      </header>
+
+      <div class="lv-mv-hv-switch-grid">
+
+        <!-- 1 (visible) | 2025–2026 -->
+        <article class="lv-mv-hv-switch-card reveal-left is-visible">
+          <figure class="lv-mv-hv-switch-media">
+            <img src="{% static 'images/project/p1.avif' %}"
+              alt="Motor Circuit Breaker – TeSys GV2P14" />
+            <span class="lv-mv-hv-switch-year">2025-2026</span>
+          </figure>
+          <div class="lv-mv-hv-switch-body">
+            <h3>Motor Circuit Breaker – TeSys GV2P14 (Qty: 3)</h3>
+              <p class="lv-mv-hv-switch-client"><strong>Country: </strong>Solomon Islands</p>
+            <p class="lv-mv-hv-switch-client"><strong>Brand:</strong> Schneider Electric</p>
+            <ul class="lv-mv-hv-switch-points">
+              <li><strong>Ratings: </strong>Adjustable 6–10A, 3-Pole, Thermal-Magnetic Protection, Manual Motor Starter (MPCB)</li>
+              
+              <li><strong>Scope:</strong> Supply</li>
+            </ul>
+          </div>
+        </article>
+
+        <!-- 2 (visible) | 2024–2025 -->
+        <article class="lv-mv-hv-switch-card reveal-right is-visible">
+          <figure class="lv-mv-hv-switch-media">
+            <img src="{% static 'images/project/p2.avif'' %}" alt="Air Circuit Breaker–MasterPact NW40H2" />
+            <span class="lv-mv-hv-switch-year">2025–2026</span>
+          </figure>
+          <div class="lv-mv-hv-switch-body">
+            <h3>Air Circuit Breaker–MasterPact NW40H2 (Qty: 1)</h3>
+               <p class="lv-mv-hv-switch-client"><strong>Country: </strong>Solomon Islands</p>
+            <p class="lv-mv-hv-switch-client"><strong>Brand:</strong> Schneider Electric</p>
+            <ul class="lv-mv-hv-switch-points">
+              <li><strong>Ratings:</strong> 4000A, up to 690V AC, 100kA @ 440V, Draw-out Type with Micrologic Trip Unit</li>
+              <li><strong>Scope:</strong> Supply</li>
+            </ul>
+          </div>
+        </article>
+
+        <!-- 3 (visible) | 2023–2024 -->
+        <article class="lv-mv-hv-switch-card reveal-left is-visible">
+          <figure class="lv-mv-hv-switch-media">
+            <img src="{% static 'images/project/p3.avif'' %}" alt="Control Relay Supply – 24VDC Industrial Application" />
+            <span class="lv-mv-hv-switch-year">2025–2026</span>
+          </figure>
+          <div class="lv-mv-hv-switch-body">
+            <h3>Relay Supply – 24VDC Industrial Application (Qty: 20)</h3>
+            <p class="lv-mv-hv-switch-client"><strong>Country: </strong>Solomon Islands</p>
+            <p class="lv-mv-hv-switch-client"><strong>Brand:</strong> Hongfa / Weidmüller</p>
+            <ul class="lv-mv-hv-switch-points">
+            <li><strong>Model & Ratings:</strong> HG4190024-1Z (Brand: Hongfa) – 24VDC, 1CO, 40A DC, Plug-in Type (Qty: 12) <br> DRM570024L (WEI 7760056088) (Brand: Weidmüller) – 24VDC, 4CO, 250VAC 5A, with LED (Qty: 8)</li>
+              <li><strong>Scope:</strong> Supply </li>
+            </ul>
+          </div>
+        </article>
+
+        
+
+      </div>
+    </div>
+  </section>
+
+
+
+  <section id="about-us" class="cmms-contact-form-wrap">
+    <div class="cmms-contact-form-inner">
+
+      <a href="#contact" class="cmms-contact-form-badge2 reveal-up">
+        <p class="eyebrow-neplan-what-we-bring reveal-up">About us</p>
+      </a>
+
+      <h2 class="title-meet-ieng-about reveal-up">
+        About us – where vision meets execution!
+      </h2>
+
+
+
+      <p class="about-text-abou-ieng reveal-up">
+        iEngineering is your trusted partner for advanced electrical and energy solutions across Australia, Fiji, and
+        India. We deliver high-quality hardware products from switchboards and transformers to solar, BESS, and EV
+        charging systems backed by expert engineering, reliable installation, and dedicated local support.</strong>
+      </p>
+
+    </div>
+  </section>
+
+  <section class="cmms-contact-form-wrap">
+    <section class="-gemini-mission-section">
+      <div class="-gemini-tabs-container">
+        <button class="-gemini-tab active" data-tab="mission">Mission</button>
+        <button class="-gemini-tab" data-tab="vision">Vision</button>
+        <button class="-gemini-tab" data-tab="values">Values</button>
+      </div>
+
+      <div class="-gemini-content-wrapper">
+        <div class="-gemini-content active reveal-mobility" id="mission-content">
+          <div class="-gemini-text-content">
+            <h2 class="title-meet-ieng-about reveal-mobility">Our Mission</h2>
+            <p class="reveal-mobility">At iEngineering Australia, our mission is to enhance efficiency, ensure quality
+              control, and deliver customer satisfaction through innovative engineering solutions. We are committed to
+              global standards and sustainable solutions that create long-term value for our clients and communities.
+            </p>
+          </div>
+          <div class="-gemini-image-content reveal-mobility">
+            <img src="{% static 'images/mission.avif' %}" alt="Mission Image">
+          </div>
+        </div>
+
+        <div class="-gemini-content" id="vision-content">
+          <div class="-gemini-text-content reveal-mobility">
+            <h2 class="title-meet-ieng-about reveal-mobility">Our Vision</h2>
+            <p class="reveal-mobility">Our vision is to be a global leader in engineering solutions, driving industry
+              leadership, innovation, and customer-centric growth. We aim to inspire through global influence, foster
+              expansion and growth, and play an inspirational role in shaping the future of engineering.</p>
+          </div>
+          <div class="-gemini-image-content reveal-mobility">
+            <img src="{% static 'images/vision.avif' %}" alt="Vision Image">
+          </div>
+        </div>
+
+        <div class="-gemini-content reveal-mobility" id="values-content">
+          <div class="-gemini-text-content">
+            <h2 class="title-meet-ieng-about reveal-mobility">Our Values</h2>
+            <p class="reveal-mobility">Our values guide everything we do: integrity & ethics, a strong commitment to
+              quality, and diversity & inclusion. Safety, reliability, and continuous improvement are the cornerstones
+              of our success, enabling us to deliver trusted and innovative solutions worldwide.</p>
+          </div>
+          <div class="-gemini-image-content reveal-mobility">
+            <img src="{% static 'images/values.avif' %}" alt="Values Image">
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </section>
+  <section class="section-meet-ieng-about" id="team">
+    <div class="container-meet-ieng-about">
+      <header class="header-meet-ieng-about">
+        <p class="eyebrow-neplan-what-we-bring reveal-up">Our Journey</p>
+        <!-- <h2 class="title-meet-ieng-about reveal-up"></h2> -->
+        <p class="subtitle-meet-ieng-about reveal-up">
+          Founded in 2013, iEngineering Australia delivers a comprehensive range of high-quality electrical and energy
+          hardware solutions tailored for Australian and Pacific conditions. From design and engineering to
+          manufacturing, testing, and commissioning support, we ensure every product whether switchboards, transformers,
+          solar systems, or EV chargers is safe, reliable, and built to last.
+        </p>
+      </header>
+
+
+    </div>
+  </section>
+
+  <section class="section-meet-ieng-about" id="team">
+    <div class="container-meet-ieng-about">
+      <header class="header-meet-ieng-about">
+        <p class="eyebrow-neplan-what-we-bring reveal-up">Where We Operate</p>
+
+        <p class="subtitle-meet-ieng-about reveal-up saw">
+          iEngineering Australia operates across Australia, Fiji, and India, delivering reliable technology and asset
+          management solutions to organizations of all sizes-from local enterprises to large multinational companies.
+
+
+        </p>
+      </header>
+
+
+      <!-- =======================
+     NEPLAN - Locations
+     ======================= -->
+      <section class="neplan-locations-wrap">
+        <div class="neplan-locations-grid">
+
+          <!-- Australia – Sydney -->
+          <article class="neplan-locations-card neplan-locations-card--au">
+            <header class="neplan-locations-header">
+              <span class="neplan-locations-icon" aria-hidden="true">
+                <!-- Location pin -->
+                <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true">
+                  <path
+                    d="M12 2a7 7 0 0 0-7 7c0 5.25 7 13 7 13s7-7.75 7-13a7 7 0 0 0-7-7zm0 9.5A2.5 2.5 0 1 1 12 6a2.5 2.5 0 0 1 0 5.5z"
+                    fill="currentColor" />
+                </svg>
+              </span>
+              <h3 class="neplan-locations-title reveal-right">Australia – Sydney</h3>
+            </header>
+
+            <p class="neplan-locations-phone reveal-right"><strong>Phone:</strong> +61 (02) 8318 1490</p>
+            <p class="neplan-locations-email reveal-right">
+              <strong class="reveal-right reveal-right">Email:</strong>
+              <a href="mailto:enquiries@iengaust.com.au" class="reveal-right">enquiries@iengaust.com.au</a>
+            </p>
+            <p class="neplan-locations-address reveal-right">
+              Warawara Cct, Quakers Hill NSW 2763, Australia
+            </p>
+
+            <a class="neplan-locations-map reveal-right" target="_blank" rel="noopener"
+              href="https://www.google.com/maps/place/iEngineering+Australia/@-33.7235328,150.8746483,349m/data=!3m3!1e3!4b1!5s0x6b12994c8f100b83:0xc573a44ab66823ee!4m6!3m5!1s0x1b47c40472e681d:0x111e8f0e95cba38f!8m2!3d-33.7235345!4d150.8756411!16s%2Fg%2F11b7cc3cnq?hl=en-US&entry=ttu&g_ep=EgoyMDI1MTEwOS4wIKXMDSoASAFQAw%3D%3D">
+              View map
+            </a>
+          </article>
+
+          <!-- India – Pune -->
+          <article class="neplan-locations-card neplan-locations-card--in">
+            <header class="neplan-locations-header">
+              <span class="neplan-locations-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true">
+                  <path
+                    d="M12 2a7 7 0 0 0-7 7c0 5.25 7 13 7 13s7-7.75 7-13a7 7 0 0 0-7-7zm0 9.5A2.5 2.5 0 1 1 12 6a2.5 2.5 0 0 1 0 5.5z"
+                    fill="currentColor" />
+                </svg>
+              </span>
+              <h3 class="neplan-locations-title reveal-right">India – Pune</h3>
+            </header>
+
+            <p class="neplan-locations-phone reveal-right"><strong>Phone:</strong> +91 9168627258</p>
+            <p class="neplan-locations-email reveal-right">
+              <strong>Email:</strong>
+              <a href="mailto:shila@iengaust.com.au" class="reveal-right">shila@iengaust.com.au</a>
+            </p>
+            <p class="neplan-locations-address reveal-right">
+              Navale IT Zone, Office No. 501, 5th Floor, A-Wing, Near Navale Bridge, Mumbai-Bangalore Highway,
+              Narhe, Pune – 411041.
+            </p>
+
+            <a class="neplan-locations-map reveal-right" target="_blank" rel="noopener"
+              href="https://www.google.com/maps/place/Truecue+iEngineering+India+Pvt+Ltd/@18.4598087,73.820123,796m/data=!3m2!1e3!4b1!4m6!3m5!1s0x3bc2bf393571e765:0x7f82ec8c697cb907!8m2!3d18.4598036!4d73.8226979!16s%2Fg%2F11g2wv4fpd?hl=en-US&entry=ttu&g_ep=EgoyMDI1MTEwOS4wIKXMDSoASAFQAw%3D%3D">
+              View map
+            </a>
+          </article>
+
+          <!-- Fiji – Suva -->
+          <article class="neplan-locations-card neplan-locations-card--fj">
+            <header class="neplan-locations-header">
+              <span class="neplan-locations-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true">
+                  <path
+                    d="M12 2a7 7 0 0 0-7 7c0 5.25 7 13 7 13s7-7.75 7-13a7 7 0 0 0-7-7zm0 9.5A2.5 2.5 0 1 1 12 6a2.5 2.5 0 0 1 0 5.5z"
+                    fill="currentColor" />
+                </svg>
+              </span>
+              <h3 class="neplan-locations-title reveal-right">Fiji – Suva</h3>
+            </header>
+
+            <p class="neplan-locations-phone reveal-right"><strong>Phone:</strong> +679 9488589</p>
+            <p class="neplan-locations-email reveal-right">
+              <strong>Email:</strong>
+              <a href="mailto:enquiries@iengaust.com.au" class="reveal-right">enquiries@iengaust.com.au</a>
+            </p>
+            <p class="neplan-locations-address reveal-right">
+              Suva, Fiji.
+            </p>
+
+            <a class="neplan-locations-map reveal-right" target="_blank" rel="noopener"
+              href="https://www.google.com/maps/search/Lot+17,+River+Drive+Pacific+Harbour+Navua+Suva+Fiji/">
+              View map
+            </a>
+          </article>
+
+        </div>
+      </section>
+
+    </div>
+  </section>
+  <section id="contact">
+
+
+
+    {% include "components/contact_block.html" with form_only=True %}
+
+  </section>
+  {% include 'footer.html' %}
+
+  <!-- Link to Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+  <script defer src="{% static 'js/demo_form.js' %}"></script>
+  <script defer src="{% static 'js/main.js' %}"></script>
+  <script defer src="{% static 'js/neplan.js'%}"></script>
+
+
+  <script>(() => {
+      const targets = document.querySelectorAll(
+        '.reveal-top-lv-mv-hv-swt-pylon, .reveal-left-lv-mv-hv-swt-pylon, .reveal-right-lv-mv-hv-swt-pylon, .reveal-up-lv-mv-hv-swt-pylon'
+      );
+
+      const io = new IntersectionObserver((entries) => {
+        entries.forEach((e) => {
+          if (e.isIntersecting) {
+            e.target.classList.add('reveal-in-lv-mv-hv-swt-pylon');
+            io.unobserve(e.target);
+          }
+        });
+      }, { threshold: 0.18 });
+
+      targets.forEach((el) => io.observe(el));
+    })();</script>
+  <script>(() => {
+      const SELECTOR = '.reveal-left, .reveal-right, .reveal-up, .reveal-down';
+
+      // Apply per-element delay from data attribute if provided
+      document.querySelectorAll(SELECTOR).forEach(el => {
+        const d = el.getAttribute('data-reveal-delay');
+        if (d) el.style.setProperty('--reveal-delay', /^\d+$/.test(d) ? `${d}ms` : d);
+      });
+
+      // Auto-stagger children inside a .reveal-group
+      document.querySelectorAll('.reveal-group[data-reveal-stagger]').forEach(group => {
+        const step = parseInt(group.dataset.revealStagger, 10) || 120; // ms
+        let i = 0;
+        group.querySelectorAll(SELECTOR).forEach(el => {
+          el.style.setProperty('--reveal-delay', `${i * step}ms`);
+          i++;
+        });
+      });
+
+      // Observe and toggle visibility (replays when scrolling back unless .reveal-once)
+      const io = new IntersectionObserver((entries) => {
+        entries.forEach(({ target, isIntersecting }) => {
+          if (isIntersecting) target.classList.add('is-visible');
+          else if (!target.classList.contains('reveal-once'))
+            target.classList.remove('is-visible');
+        });
+      }, { threshold: 0.18 });
+
+      document.querySelectorAll(SELECTOR).forEach(el => io.observe(el));
+    })();</script>
+  <script defer src="{% static 'js/neplan.js'%}"></script>
+  <script src="{% static 'js/main.js'%}"></script>
+  <script>
+    (function () {
+      const mapEl = document.getElementById('nml-map');
+
+      // 1) Base "Map" (street) layer
+      const street = L.tileLayer(
+        'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+        { maxZoom: 19, attribution: '&copy; OpenStreetMap' }
+      );
+
+      // 2) Hybrid = satellite imagery + transparent labels overlay
+      const imagery = L.tileLayer(
+        'https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{x}/{y}',
+        { maxZoom: 19, attribution: 'Tiles &copy; Esri - World Imagery' }
+      );
+      const labels = L.tileLayer(
+        'https://{s}.basemaps.cartocdn.com/light_only_labels/{z}/{x}/{y}{r}.png',
+        {
+          subdomains: 'abcd',
+          maxZoom: 20,
+          opacity: 0.95,
+          attribution: '&copy; OpenStreetMap contributors & CartoDB'
+        }
+      );
+      // LayerGroup allows us to add/remove both at once
+      const hybrid = L.layerGroup([imagery, labels]);
+
+      // Create map with default street layer
+      const map = L.map(mapEl, {
+        center: [-15, 120],
+        zoom: 3,
+        layers: [street],
+        zoomControl: true
+      });
+
+      // --- Your markers section (unchanged) ---
+      const LOCS = [
+        { title: 'Australia – Sydney', lat: -33.723524, lng: 150.875902, g: 'https://www.google.com/maps?ll=-33.723524,150.875902&z=5&t=m&hl=en-US&gl=US&mapclient=embed&cid=2860432314088839065' },
+        { title: 'India – Pune', lat: 18.4597518, lng: 73.8199254, g: 'https://maps.app.goo.gl/bDasJq7fErqsphp97' },
+        { title: 'Fiji – Suva', lat: -18.1654467, lng: 178.1218869, g: 'https://maps.app.goo.gl/cDMZMfo9R9Mfdm2Z7' },
+      ];
+      const pin = L.icon({
+        iconUrl: 'https://unpkg.com/leaflet@1.9.4/dist/images/marker-icon.png',
+        iconAnchor: [12, 41], popupAnchor: [0, -34]
+      });
+      const group = L.featureGroup();
+      LOCS.forEach(p => {
+        L.marker([p.lat, p.lng], { icon: pin })
+          .bindPopup(`<strong>${p.title}</strong><br>
+                  <a href="${p.g}" target="_blank" rel="noopener">Open in Google Maps</a>`)
+          .addTo(group);
+      });
+      group.addTo(map);
+      map.fitBounds(group.getBounds().pad(0.3));
+
+      // Set "View larger map" link by center/zoom
+      const viewLink = document.getElementById('nml-view-link');
+      function updateViewLink() {
+        const c = map.getCenter();
+        viewLink.href = `https://www.google.com/maps/@${c.lat.toFixed(5)},${c.lng.toFixed(5)},${map.getZoom()}z`;
+      }
+      map.on('moveend zoomend', updateViewLink);
+      updateViewLink();
+
+      // --- Toggle between street and hybrid ---
+      const toggles = document.querySelectorAll('.nml-toggle');
+      let currentBase = street;           // track current base for removal
+
+      function setBase(which) {
+        if (map.hasLayer(currentBase)) map.removeLayer(currentBase);
+        currentBase = (which === 'hybrid') ? hybrid : street;
+        map.addLayer(currentBase);
+      }
+
+      toggles.forEach(btn => {
+        btn.addEventListener('click', () => {
+          toggles.forEach(b => b.classList.remove('is-active'));
+          btn.classList.add('is-active');
+          setBase(btn.dataset.layer);
+        });
+      });
+    })();
+  </script>
+
+  <script>
+    (function () {
+      const mapEl = document.getElementById('nml-map');
+
+      /* ---------- Base layers ---------- */
+      const street = L.tileLayer(
+        'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+        { maxZoom: 19, attribution: '&copy; OpenStreetMap' }
+      );
+
+      // Hybrid = imagery + transparent labels
+      const imagery = L.tileLayer(
+        'https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{x}/{y}',
+        { maxZoom: 19, attribution: 'Tiles &copy; Esri - World Imagery' }
+      );
+      const labels = L.tileLayer(
+        'https://{s}.basemaps.cartocdn.com/light_only_labels/{z}/{x}/{y}{r}.png',
+        { subdomains: 'abcd', maxZoom: 20, opacity: 0.95, attribution: '&copy; OpenStreetMap & Carto' }
+      );
+      const hybrid = L.layerGroup([imagery, labels]);
+
+      /* ---------- Map ---------- */
+      const map = L.map(mapEl, {
+        center: [-15, 120],
+        zoom: 3,
+        layers: [street],
+        zoomControl: true
+      });
+
+      /* ---------- Pins ---------- */
+      const LOCS = [
+        { title: 'Australia – Sydney', lat: -33.723524, lng: 150.875902, g: 'https://www.google.com/maps?q=-33.723524,150.875902' },
+        { title: 'India – Pune', lat: 18.4597518, lng: 73.8225003, g: 'https://www.google.com/maps?q=18.4597518,73.8225003' },
+        { title: 'Fiji – Suva', lat: -18.1642523, lng: 177.6272352, g: 'https://www.google.com/maps?q=-18.1642523,177.6272352' },
+      ];
+      const pin = L.icon({
+        iconUrl: 'https://unpkg.com/leaflet@1.9.4/dist/images/marker-icon.png',
+        iconAnchor: [12, 41], popupAnchor: [0, -34]
+      });
+      const group = L.featureGroup();
+      LOCS.forEach(p => {
+        L.marker([p.lat, p.lng], { icon: pin })
+          .bindPopup(`<strong>${p.title}</strong><br>
+                  <a href="${p.g}" target="_blank" rel="noopener">Open in Google Maps</a>`)
+          .addTo(group);
+      });
+      group.addTo(map);
+      map.fitBounds(group.getBounds().pad(0.3));
+
+      /* ---------- Update “View larger map” link ---------- */
+      const viewLink = document.getElementById('nml-view-link');
+      function updateViewLink() {
+        const c = map.getCenter();
+        viewLink.href = `https://www.google.com/maps/@${c.lat.toFixed(5)},${c.lng.toFixed(5)},${map.getZoom()}z`;
+      }
+      map.on('moveend zoomend', updateViewLink);
+      updateViewLink();
+
+      /* ---------- Lock / enable interaction ---------- */
+      const container = map.getContainer();
+
+      function lockMap() {
+        map.scrollWheelZoom.disable();
+        map.touchZoom.disable();
+        map.boxZoom.disable();
+        map.keyboard.disable();
+        map.dragging.disable();
+        if (map.tap) map.tap.disable();
+        container.classList.add('map-locked');
+      }
+      function unlockMap() {
+        map.scrollWheelZoom.enable();
+        map.touchZoom.enable();
+        map.boxZoom.enable();
+        map.keyboard.enable();
+        map.dragging.enable();
+        if (map.tap) map.tap.enable();
+        container.classList.remove('map-locked');
+      }
+      lockMap();
+
+      // Helper overlay
+      const guard = document.createElement('div');
+      guard.className = 'nml-map-guard';
+      guard.innerHTML = `
+    <span>Click to interact · <kbd>Ctrl</kbd> + wheel to zoom</span>
+    <button type="button">Enable map</button>
+  `;
+      container.appendChild(guard);
+
+      guard.querySelector('button').addEventListener('click', () => {
+        unlockMap();
+        guard.style.display = 'none';
+      });
+
+      // Only allow wheel zoom with Ctrl
+      container.addEventListener('wheel', (e) => {
+        if (!e.ctrlKey) {
+          e.preventDefault();     // page keeps scrolling; map won’t zoom
+        } else if (!map.scrollWheelZoom.enabled()) {
+          unlockMap();
+          guard.style.display = 'none';
+        }
+      }, { passive: false });
+
+      // Re-lock when leaving the map
+      map.on('mouseout', () => {
+        lockMap();
+        guard.style.display = '';
+      });
+      map.on('touchend', () => {
+        lockMap();
+        guard.style.display = '';
+      });
+
+      /* ---------- (Optional) switch base layers programmatically ----------
+         Call setBase('hybrid') or setBase('street') from a UI button if you add one. */
+      let currentBase = street;
+      function setBase(which) {
+        if (map.hasLayer(currentBase)) map.removeLayer(currentBase);
+        currentBase = (which === 'hybrid') ? hybrid : street;
+        map.addLayer(currentBase);
+      }
+      // Example: setBase('street'); setBase('hybrid');
+    })();
+  </script>
+
+
+
+  <script>(() => {
+      const SELECTOR = '.reveal-left, .reveal-right, .reveal-up, .reveal-down';
+
+      // Apply per-element delay from data attribute if provided
+      document.querySelectorAll(SELECTOR).forEach(el => {
+        const d = el.getAttribute('data-reveal-delay');
+        if (d) el.style.setProperty('--reveal-delay', /^\d+$/.test(d) ? `${d}ms` : d);
+      });
+
+      // Auto-stagger children inside a .reveal-group
+      document.querySelectorAll('.reveal-group[data-reveal-stagger]').forEach(group => {
+        const step = parseInt(group.dataset.revealStagger, 10) || 120; // ms
+        let i = 0;
+        group.querySelectorAll(SELECTOR).forEach(el => {
+          el.style.setProperty('--reveal-delay', `${i * step}ms`);
+          i++;
+        });
+      });
+
+      // Observe and toggle visibility (replays when scrolling back unless .reveal-once)
+      const io = new IntersectionObserver((entries) => {
+        entries.forEach(({ target, isIntersecting }) => {
+          if (isIntersecting) target.classList.add('is-visible');
+          else if (!target.classList.contains('reveal-once'))
+            target.classList.remove('is-visible');
+        });
+      }, { threshold: 0.18 });
+
+      document.querySelectorAll(SELECTOR).forEach(el => io.observe(el));
+    })();</script>
+  <script defer src="{% static 'js/neplan.js'%}"></script>
+  <script src="{% static 'js/main.js'%}"></script>
+  <script>
+    (function () {
+      const mapEl = document.getElementById('nml-map');
+
+      // 1) Base "Map" (street) layer
+      const street = L.tileLayer(
+        'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+        { maxZoom: 19, attribution: '&copy; OpenStreetMap' }
+      );
+
+      // 2) Hybrid = satellite imagery + transparent labels overlay
+      const imagery = L.tileLayer(
+        'https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{x}/{y}',
+        { maxZoom: 19, attribution: 'Tiles &copy; Esri - World Imagery' }
+      );
+      const labels = L.tileLayer(
+        'https://{s}.basemaps.cartocdn.com/light_only_labels/{z}/{x}/{y}{r}.png',
+        {
+          subdomains: 'abcd',
+          maxZoom: 20,
+          opacity: 0.95,
+          attribution: '&copy; OpenStreetMap contributors & CartoDB'
+        }
+      );
+      // LayerGroup allows us to add/remove both at once
+      const hybrid = L.layerGroup([imagery, labels]);
+
+      // Create map with default street layer
+      const map = L.map(mapEl, {
+        center: [-15, 120],
+        zoom: 3,
+        layers: [street],
+        zoomControl: true
+      });
+
+      // --- Your markers section (unchanged) ---
+      const LOCS = [
+        { title: 'Australia – Sydney', lat: -33.723524, lng: 150.875902, g: 'https://www.google.com/maps?ll=-33.723524,150.875902&z=5&t=m&hl=en-US&gl=US&mapclient=embed&cid=2860432314088839065' },
+        { title: 'India – Pune', lat: 18.4597518, lng: 73.8199254, g: 'https://maps.app.goo.gl/bDasJq7fErqsphp97' },
+        { title: 'Fiji – Suva', lat: -18.1654467, lng: 178.1218869, g: 'https://maps.app.goo.gl/cDMZMfo9R9Mfdm2Z7' },
+      ];
+      const pin = L.icon({
+        iconUrl: 'https://unpkg.com/leaflet@1.9.4/dist/images/marker-icon.png',
+        iconAnchor: [12, 41], popupAnchor: [0, -34]
+      });
+      const group = L.featureGroup();
+      LOCS.forEach(p => {
+        L.marker([p.lat, p.lng], { icon: pin })
+          .bindPopup(`<strong>${p.title}</strong><br>
+                  <a href="${p.g}" target="_blank" rel="noopener">Open in Google Maps</a>`)
+          .addTo(group);
+      });
+      group.addTo(map);
+      map.fitBounds(group.getBounds().pad(0.3));
+
+      // Set "View larger map" link by center/zoom
+      const viewLink = document.getElementById('nml-view-link');
+      function updateViewLink() {
+        const c = map.getCenter();
+        viewLink.href = `https://www.google.com/maps/@${c.lat.toFixed(5)},${c.lng.toFixed(5)},${map.getZoom()}z`;
+      }
+      map.on('moveend zoomend', updateViewLink);
+      updateViewLink();
+
+      // --- Toggle between street and hybrid ---
+      const toggles = document.querySelectorAll('.nml-toggle');
+      let currentBase = street;           // track current base for removal
+
+      function setBase(which) {
+        if (map.hasLayer(currentBase)) map.removeLayer(currentBase);
+        currentBase = (which === 'hybrid') ? hybrid : street;
+        map.addLayer(currentBase);
+      }
+
+      toggles.forEach(btn => {
+        btn.addEventListener('click', () => {
+          toggles.forEach(b => b.classList.remove('is-active'));
+          btn.classList.add('is-active');
+          setBase(btn.dataset.layer);
+        });
+      });
+    })();
+  </script>
+
+  <script>
+    (function () {
+      const mapEl = document.getElementById('nml-map');
+
+      /* ---------- Base layers ---------- */
+      const street = L.tileLayer(
+        'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+        { maxZoom: 19, attribution: '&copy; OpenStreetMap' }
+      );
+
+      // Hybrid = imagery + transparent labels
+      const imagery = L.tileLayer(
+        'https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{x}/{y}',
+        { maxZoom: 19, attribution: 'Tiles &copy; Esri - World Imagery' }
+      );
+      const labels = L.tileLayer(
+        'https://{s}.basemaps.cartocdn.com/light_only_labels/{z}/{x}/{y}{r}.png',
+        { subdomains: 'abcd', maxZoom: 20, opacity: 0.95, attribution: '&copy; OpenStreetMap & Carto' }
+      );
+      const hybrid = L.layerGroup([imagery, labels]);
+
+      /* ---------- Map ---------- */
+      const map = L.map(mapEl, {
+        center: [-15, 120],
+        zoom: 3,
+        layers: [street],
+        zoomControl: true
+      });
+
+      /* ---------- Pins ---------- */
+      const LOCS = [
+        { title: 'Australia – Sydney', lat: -33.723524, lng: 150.875902, g: 'https://www.google.com/maps?q=-33.723524,150.875902' },
+        { title: 'India – Pune', lat: 18.4597518, lng: 73.8225003, g: 'https://www.google.com/maps?q=18.4597518,73.8225003' },
+        { title: 'Fiji – Suva', lat: -18.1642523, lng: 177.6272352, g: 'https://www.google.com/maps?q=-18.1642523,177.6272352' },
+      ];
+      const pin = L.icon({
+        iconUrl: 'https://unpkg.com/leaflet@1.9.4/dist/images/marker-icon.png',
+        iconAnchor: [12, 41], popupAnchor: [0, -34]
+      });
+      const group = L.featureGroup();
+      LOCS.forEach(p => {
+        L.marker([p.lat, p.lng], { icon: pin })
+          .bindPopup(`<strong>${p.title}</strong><br>
+                  <a href="${p.g}" target="_blank" rel="noopener">Open in Google Maps</a>`)
+          .addTo(group);
+      });
+      group.addTo(map);
+      map.fitBounds(group.getBounds().pad(0.3));
+
+      /* ---------- Update “View larger map” link ---------- */
+      const viewLink = document.getElementById('nml-view-link');
+      function updateViewLink() {
+        const c = map.getCenter();
+        viewLink.href = `https://www.google.com/maps/@${c.lat.toFixed(5)},${c.lng.toFixed(5)},${map.getZoom()}z`;
+      }
+      map.on('moveend zoomend', updateViewLink);
+      updateViewLink();
+
+      /* ---------- Lock / enable interaction ---------- */
+      const container = map.getContainer();
+
+      function lockMap() {
+        map.scrollWheelZoom.disable();
+        map.touchZoom.disable();
+        map.boxZoom.disable();
+        map.keyboard.disable();
+        map.dragging.disable();
+        if (map.tap) map.tap.disable();
+        container.classList.add('map-locked');
+      }
+      function unlockMap() {
+        map.scrollWheelZoom.enable();
+        map.touchZoom.enable();
+        map.boxZoom.enable();
+        map.keyboard.enable();
+        map.dragging.enable();
+        if (map.tap) map.tap.enable();
+        container.classList.remove('map-locked');
+      }
+      lockMap();
+
+      // Helper overlay
+      const guard = document.createElement('div');
+      guard.className = 'nml-map-guard';
+      guard.innerHTML = `
+    <span>Click to interact · <kbd>Ctrl</kbd> + wheel to zoom</span>
+    <button type="button">Enable map</button>
+  `;
+      container.appendChild(guard);
+
+      guard.querySelector('button').addEventListener('click', () => {
+        unlockMap();
+        guard.style.display = 'none';
+      });
+
+      // Only allow wheel zoom with Ctrl
+      container.addEventListener('wheel', (e) => {
+        if (!e.ctrlKey) {
+          e.preventDefault();     // page keeps scrolling; map won’t zoom
+        } else if (!map.scrollWheelZoom.enabled()) {
+          unlockMap();
+          guard.style.display = 'none';
+        }
+      }, { passive: false });
+
+      // Re-lock when leaving the map
+      map.on('mouseout', () => {
+        lockMap();
+        guard.style.display = '';
+      });
+      map.on('touchend', () => {
+        lockMap();
+        guard.style.display = '';
+      });
+
+      /* ---------- (Optional) switch base layers programmatically ----------
+         Call setBase('hybrid') or setBase('street') from a UI button if you add one. */
+      let currentBase = street;
+      function setBase(which) {
+        if (map.hasLayer(currentBase)) map.removeLayer(currentBase);
+        currentBase = (which === 'hybrid') ? hybrid : street;
+        map.addLayer(currentBase);
+      }
+      // Example: setBase('street'); setBase('hybrid');
+    })();
+  </script>
+
+  <!-- for download button -->
+
+
+  <script>
+    (() => {
+      if (window.__downloadFormBound) return;
+      window.__downloadFormBound = true;
+
+      const form = document.getElementById('csc-form');
+      const btns = document.querySelectorAll('.request-download-csc-lv-mv-hv-swt-csc-products');
+      const docEl = document.getElementById('csc-doc-name');
+      const csrftoken = document.querySelector('[name=csrfmiddlewaretoken]')?.value || "";
+
+      btns.forEach(b => b.addEventListener('click', () => {
+        docEl.value = b.getAttribute('data-doc') || '';
+      }));
+
+      function triggerDownload(url) {
+        const a = document.createElement('a');
+        a.href = url; a.download = "";
+        document.body.appendChild(a); a.click(); a.remove();
+      }
+
+      let isSubmitting = false;
+
+      form.addEventListener('submit', async (e) => {
+        e.preventDefault();
+        if (isSubmitting) return;
+        isSubmitting = true;
+
+        try {
+          const res = await fetch('{% url "cmmsApp:request_download" %}', {
+            method: 'POST',
+            headers: { 'X-CSRFToken': csrftoken },
+            body: new FormData(form),
+            credentials: 'same-origin'
+          });
+
+          let data = null;
+          const ct = res.headers.get('content-type') || '';
+          data = ct.includes('application/json') ? await res.json() : { ok: false, error: `Server returned ${res.status}` };
+
+          if (!res.ok || !data.ok) {
+            alert(data.error || 'Something went wrong. Please try again.');
+            return;
+          }
+
+          if (data.download_url) {
+            sessionStorage.setItem('lastDownloadURL', data.download_url);
+            triggerDownload(data.download_url);
+          }
+          // Redirect to Thank You
+          window.location.href = '{% url "cmmsApp:contact_thanks" %}';
+
+        } catch (err) {
+          console.error(err);
+          alert('Network error. Please try again.');
+        } finally {
+          isSubmitting = false;
+        }
+      });
+    })();
+  </script>
+  <script>
+    (function () {
+      const sliders = document.querySelectorAll('.sg-slider-lv-mv-hv-swt-types');
+
+      sliders.forEach(slider => {
+        const imgs = Array.from(slider.querySelectorAll('img'));
+        if (imgs.length <= 1) return;
+
+        let index = imgs.findIndex(i => i.classList.contains('is-active'));
+        if (index < 0) index = 0;
+
+        const interval = parseInt(slider.getAttribute('data-interval') || '2000', 10);
+
+        setInterval(() => {
+          imgs[index].classList.remove('is-active');
+          index = (index + 1) % imgs.length;
+          imgs[index].classList.add('is-active');
+        }, interval);
+      });
+    })();
+  </script>
+
+</body>
+
+</html>
