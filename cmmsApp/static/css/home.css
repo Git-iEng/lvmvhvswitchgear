@@ -366,8 +366,8 @@ section[id] {
 }
 
 .in-view-lv-mv-hv-swt {
-  opacity: 1 !important;
-  transform: translateY(0) scale(1) !important;
+  opacity: 1;
+  transform: translateY(0) scale(1);
 }
 
 /* Respect reduced motion */
@@ -455,7 +455,7 @@ section[id] {
 
 /* Remove the old base band if still present */
 .hero-band-lv-mv-hv-swt {
-  display: none !important;
+  display: none;
 }
 
 /* ===== Desktop/Large: create the overlap ===== */
@@ -494,7 +494,7 @@ section[id] {
 
 /* Stop marquee while user is paging via dots */
 .logos-track-lv-mv-hv-swt.manual-lv-mv-hv-swt {
-  animation: none !important;
+  animation: none;
 }
 
 
